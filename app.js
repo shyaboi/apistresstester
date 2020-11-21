@@ -21,6 +21,7 @@ const popAPI = async ()=> {
     exec('curl https://openflags.net/rando', (error, stdout, stderr) => {
         iter++
         const await = `stdout:\n${stdout}`
+        console.log('\n=================================================\n')
         console.log(` Iteration:${iter}\n`, `RTT: ${time}`)
         console.log(await)
     //   console.log(time)
