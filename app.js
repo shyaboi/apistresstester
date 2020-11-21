@@ -6,10 +6,9 @@ var timeInter
 let time = 0
 
 let timer = ()=> {
-    console.log(` Iteration:${iter}\n`, `RTT: ${time}`)
     const timeNow = ()=> {time++}
     timeInter = setInterval(timeNow,1)    
-
+    
 }
 
 const popAPI = async ()=> {
@@ -18,12 +17,13 @@ const popAPI = async ()=> {
     if (iter>chosenIter-1) {
         clearInterval(sunSetInterval)
         process.exit()
-        }
+    }
     exec('curl https://openflags.net/rando', (error, stdout, stderr) => {
-      iter++
-      const await = `stdout:\n${stdout}`
-      console.log(await)
-      console.log(time)
+        iter++
+        const await = `stdout:\n${stdout}`
+        console.log(` Iteration:${iter}\n`, `RTT: ${time}`)
+        console.log(await)
+    //   console.log(time)
       clearInterval(timeInter)
     });
 }
