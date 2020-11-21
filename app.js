@@ -1,10 +1,13 @@
 const { exec } = require('child_process');
 let iter = 0
-let chosenIter = 20
-let frequency = 300
-var timeInter
+let chosenIter = 1000
+let frequency = 50
 let time = 0
 let url = 'https://openflags.net/rando'
+
+var timeInter
+
+
 let timer = ()=> {
     const timeNow = ()=> {time++}
     timeInter = setInterval(timeNow,1)    
@@ -22,9 +25,8 @@ const popAPI = async ()=> {
         iter++
         const await = `stdout:\n${stdout}`
         console.log('\n=================================================\n')
-        console.log(` Iteration:${iter}\n`, `RTT: ${time}ms`)
+        console.log(` Iteration:${iter}\n`,`RTT: ${time}ms`)
         console.log(await)
-    //   console.log(time)
       clearInterval(timeInter)
     });
 }
