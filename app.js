@@ -14,7 +14,7 @@ let timer = ()=> {
 const popAPI = async ()=> {
     time = 0
     timer()
-    if (iter>chosenIter-1) {
+    if (iter>=chosenIter) {
         clearInterval(sunSetInterval)
         process.exit()
     }
