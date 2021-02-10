@@ -6,9 +6,13 @@ Ideally, you run this on many different machines, on different connections for b
 
 # Running the script
 
-Currently you can apply your variables at the top, and simply run 
+Currently you can apply your variables at the top, and after running
 
-`node app.js`
+`npm install`
+
+then run
+
+`npm start`
 
 and it will start stressing your system and the API you are hitting.
 
