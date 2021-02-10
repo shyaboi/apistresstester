@@ -16,7 +16,7 @@ Then simply run
 
 $`npm start`
 
-and it will start stressing your system and the API you are hitting.
+and it will start stressing your system (mostly your network) and the API you are hitting.
 
 # Future Plans
 
