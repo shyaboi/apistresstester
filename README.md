@@ -6,13 +6,15 @@ Ideally, you run this on many different machines, on different connections for b
 
 # Running the script
 
-Currently you can apply your variables at the top, and after running
+After cloneing the repo;
 
-`npm install`
+You can apply your variables at the top of the app.js file, and after running
+
+$`npm install`
 
 then run
 
-`npm start`
+$`npm start`
 
 and it will start stressing your system and the API you are hitting.
 
