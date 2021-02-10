@@ -12,7 +12,7 @@ You can apply your variables at the top of the app.js file.
 
 There is no dependancies, so you can skip installing unless you dont have [Node.js installed](https://nodejs.org/en/download/)
 
-then simply run
+Then simply run
 
 $`npm start`
 
