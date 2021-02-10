@@ -8,11 +8,11 @@ Ideally, you run this on many different machines, on different connections for b
 
 After cloneing the repo;
 
-You can apply your variables at the top of the app.js file, and after running
+You can apply your variables at the top of the app.js file.
 
-$`npm install`
+There is no dependancies, so you can skip installing unless you dont have [Node.js installed](https://nodejs.org/en/download/)
 
-then run
+then simply run
 
 $`npm start`
 
