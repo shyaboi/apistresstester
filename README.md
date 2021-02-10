@@ -1,6 +1,6 @@
 # API Stresster
 
-This is a node script to spawn child process curls to stress test apis/sites
+Stresster is a node script to spawn child process curls to stress test apis/sites
 
 Ideally, you run this on many different machines, on different connections for best results.
 
